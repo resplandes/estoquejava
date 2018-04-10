@@ -102,8 +102,8 @@ public class StockMenu {
 	public static void print() {
 		String temp = "<html><style>h3{ margin-top: 2px;"
 				+ "margin-bottom: 2px;}</style>";
-		for (Product result : stock) {
-			temp += "<h3>"+result+"</h3>";
+		for (Product product : stock) {
+			temp += "<h3>"+product+"</h3>";
 		}
 		JOptionPane.showMessageDialog(null, temp+"</html>");
 	}

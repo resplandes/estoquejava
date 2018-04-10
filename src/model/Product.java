@@ -32,6 +32,7 @@ public class Product {
 
 	public void setAmount(Integer amount) {
 		this.amount = amount;
+		this.totalPrice = amount*price;
 	}
 
 	public Float getPrice() {
